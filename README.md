@@ -1,2 +1,0 @@
-# Ezycart
-A shopping Website
