@@ -1,0 +1,227 @@
+[
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Electronics",
+      "slug": "electronics",
+      "description": "Gadgets, phones, laptops and more",
+      "image": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Clothing",
+      "slug": "clothing",
+      "description": "Fashion for men, women and kids",
+      "image": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Home & Kitchen",
+      "slug": "home-kitchen",
+      "description": "Everything for your home",
+      "image": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Books",
+      "slug": "books",
+      "description": "Books for all ages and interests",
+      "image": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Sports & Fitness",
+      "slug": "sports-fitness",
+      "description": "Equipment and gear for active lifestyles",
+      "image": null,
+      "created_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+      "category": 1,
+      "name": "Wireless Bluetooth Headphones",
+      "slug": "wireless-bluetooth-headphones",
+      "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and crystal-clear sound quality. Compatible with all Bluetooth devices.",
+      "price": "2999.00",
+      "discount_price": "1999.00",
+      "image": null,
+      "stock": 50,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+      "category": 1,
+      "name": "Smart Watch Pro",
+      "slug": "smart-watch-pro",
+      "description": "Feature-packed smartwatch with health monitoring, GPS, water resistance, and a beautiful AMOLED display. Tracks your fitness goals effortlessly.",
+      "price": "8999.00",
+      "discount_price": "6499.00",
+      "image": null,
+      "stock": 30,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+      "category": 1,
+      "name": "USB-C Fast Charger 65W",
+      "slug": "usb-c-fast-charger-65w",
+      "description": "Universal 65W GaN fast charger compatible with laptops, phones, and tablets. Intelligent power distribution with overcharge protection.",
+      "price": "1499.00",
+      "discount_price": null,
+      "image": null,
+      "stock": 100,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "category": 2,
+      "name": "Men's Classic Cotton T-Shirt",
+      "slug": "mens-classic-cotton-tshirt",
+      "description": "100% premium cotton crew-neck T-shirt. Soft, breathable, and available in multiple colors. Perfect for everyday casual wear.",
+      "price": "599.00",
+      "discount_price": "399.00",
+      "image": null,
+      "stock": 200,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "category": 2,
+      "name": "Women's Casual Sneakers",
+      "slug": "womens-casual-sneakers",
+      "description": "Lightweight and stylish casual sneakers with memory foam insole and durable rubber sole. Great for all-day comfort.",
+      "price": "2499.00",
+      "discount_price": "1799.00",
+      "image": null,
+      "stock": 75,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+      "category": 3,
+      "name": "Stainless Steel Water Bottle 1L",
+      "slug": "stainless-steel-water-bottle-1l",
+      "description": "Double-wall insulated stainless steel bottle. Keeps drinks cold for 24 hours and hot for 12 hours. BPA-free and leak-proof.",
+      "price": "899.00",
+      "discount_price": null,
+      "image": null,
+      "stock": 150,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+      "category": 3,
+      "name": "Non-Stick Cookware Set (5 pcs)",
+      "slug": "non-stick-cookware-set-5pcs",
+      "description": "Complete 5-piece non-stick cookware set including frying pan, saucepan, and stockpot. Induction compatible, PFOA-free coating.",
+      "price": "3999.00",
+      "discount_price": "2799.00",
+      "image": null,
+      "stock": 40,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+      "category": 4,
+      "name": "Clean Code by Robert C. Martin",
+      "slug": "clean-code-robert-martin",
+      "description": "A handbook of agile software craftsmanship. Learn to write cleaner, more maintainable code with practical examples and best practices.",
+      "price": "799.00",
+      "discount_price": "649.00",
+      "image": null,
+      "stock": 60,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 9,
+    "fields": {
+      "category": 5,
+      "name": "Yoga Mat Premium Anti-Slip",
+      "slug": "yoga-mat-premium-anti-slip",
+      "description": "6mm thick premium TPE yoga mat with excellent grip and cushioning. Eco-friendly, odor-resistant, and comes with a carry strap.",
+      "price": "1299.00",
+      "discount_price": "999.00",
+      "image": null,
+      "stock": 80,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 10,
+    "fields": {
+      "category": 5,
+      "name": "Resistance Bands Set (5 levels)",
+      "slug": "resistance-bands-set-5-levels",
+      "description": "Set of 5 resistance bands with different tension levels. Perfect for home workouts, physical therapy, and strength training.",
+      "price": "799.00",
+      "discount_price": null,
+      "image": null,
+      "stock": 120,
+      "is_active": true,
+      "created_at": "2024-01-01T00:00:00Z",
+      "updated_at": "2024-01-01T00:00:00Z"
+    }
+  }
+]
